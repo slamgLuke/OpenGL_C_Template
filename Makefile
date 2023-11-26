@@ -12,6 +12,7 @@ buildrun: $(SRCS)
 		@echo "> BUILDING AND RUNNING"
 		@echo "------------------------"
 		@echo "Compiling $(SRCS)..."
+		mkdir -p $(BIN_DIR)
 		$(CC) $(CFLAGS) -g -o $(EXEC) $(SRCS) $(LINKER_FLAGS)
 		@echo "------------------------"
 		@echo "> make: Done Compiling!  [1/2]"
@@ -27,6 +28,7 @@ build: $(SRCS)
 		@echo "> BUILDING"
 		@echo "------------------------"
 		@echo "> make: Compiling $(SRCS)..."
+		mkdir -p $(BIN_DIR)
 		$(CC) $(CFLAGS) -g -o $(EXEC) $(SRCS) $(LINKER_FLAGS)
 		@echo "------------------------"
 		@echo "> make: Done Compiling!  [1/1]"

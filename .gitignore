@@ -3,5 +3,5 @@
 .o
 
 # Executable
-bin/*
+./bin/*
 
