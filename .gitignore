@@ -2,5 +2,6 @@
 .exe
 .o
 
-# Directories
-bin/
+# Executable
+bin/*
+
