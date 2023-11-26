@@ -5,9 +5,9 @@
 
 ## Dependencies
 
-- OpenGL
-- glew
-- glfw3
+- OpenGL (mesa)
+- glew 
+- glfw3  (glfw-x11)
 - cglm
 
 ## Makefile usage
