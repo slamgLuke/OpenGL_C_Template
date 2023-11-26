@@ -1,6 +1,6 @@
-# OpenGL Project for C
+# OpenGL Template Project for C
 
-- Basic showcase of window making and importing GLSL files for shading.
+- Basic window initialization and shader compilation
 - Makefile for building and running
 
 ## Dependencies
@@ -17,10 +17,7 @@
 ```bash
 $ make
 ```
-or alternatively...
-```bash
-$ make buildrun
-```
+
 
 2. Build only
 
