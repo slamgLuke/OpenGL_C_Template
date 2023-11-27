@@ -74,6 +74,13 @@ int main()
     }
     while (glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS && // Exit if the ESC key was pressed
            glfwWindowShouldClose(window) == 0);                 // or window was closed
+    
 
+    glDeleteVertexArrays(1, &vao);
+    glDeleteBuffers(1, &vbo);
+    glDeleteProgram(programID);
+
+
+    glfwTerminate();
     return 0;
 }
